@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Personal Time Tracker",
+    "version": "1.0",
+    "description": "Tracks time spent on websites for personal use.",
+    "permissions": ["tabs", "storage", "idle"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "hourglass.png"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": ["prompt.html"],
+            "matches": ["<all_urls>"]
+        }
+    ]
+}
