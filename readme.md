@@ -1,4 +1,4 @@
-###What it does:
+### What it does:
 
 -   Automatic Time Tracking: It automatically tracks the time you spend actively using your Chrome browser.
 
